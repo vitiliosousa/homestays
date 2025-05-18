@@ -18,7 +18,7 @@ export default function Reviews() {
       <div className="flex items-center justify-between w-full gap-4">
         {reviews.map((review, index) => (
         <div className="w-[400px] h-[500px] rounded-xl shadow-lg p-5 bg-white space-y-4" key={index}>
-          <h1 className="text-xl">{review.title}</h1>
+          <h1 className="text-xl ">{review.title}</h1>
           <p className="text-xs text-zinc-500">
             {review.description}
           </p>

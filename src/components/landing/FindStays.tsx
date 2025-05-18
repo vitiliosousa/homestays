@@ -13,18 +13,18 @@ export default function FindStays() {
         />
         <div className="relative z-10 flex flex-col items-center space-y-10 w-full h-full bg-black/60">
           {/* botoes e titulo */}
-          <div className="flex justify-between items-center px-10 w-full mt-20">
+          <div className="flex justify-between items-center  w-4/5 mt-20">
             <div className="flex w-full items-center gap-2">
               <BedSingle className="size-5" />
               <p className="text-sm">Find Stays</p>
             </div>
-            <div className="flex gap-6">
-              <button className="text-sm hover:underline hover:text-mint ease-in-out duration-300">
+            <div className="flex gap-6 items-center justify-center">
+              <a className="text-sm hover:underline hover:text-mint ease-in-out duration-300" href="/auth/login">
                 Login
-              </button>
-              <button className="text-blackish font-semibold bg-white w-20 py-2 rounded text-sm hover:bg-gray-200 ease-in-out duration-300">
+              </a>
+              <a className="text-blackish font-semibold bg-white w-20 py-2 rounded text-sm hover:bg-gray-200 ease-in-out duration-300 items-center justify-center flex" href="/auth/signup">
                 Sign up
-              </button>
+              </a>
             </div>
           </div>
 

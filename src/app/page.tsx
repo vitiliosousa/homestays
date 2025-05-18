@@ -3,7 +3,7 @@ import FindStays from "@/components/landing/FindStays";
 import Stays from "@/components/landing/Stays";
 import FlightsHotels from "@/components/landing/FlightsHotels";
 import Reviews from "@/components/landing/Reviews";
-import Footer from "@/components/landing/Footer";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
