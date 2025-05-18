@@ -1,6 +1,6 @@
 import Image from "next/image";
 import istambul from "@/assets/planYourPerfectTrip/istambul.svg";
-import { places } from "@/data/places";
+import { trips } from "@/data/trips";
 
 export default function PlanYourPerfectTrip() {
   return (
@@ -19,12 +19,12 @@ export default function PlanYourPerfectTrip() {
       
       {/* Cards */}
       <div className="grid grid-cols-3 gap-4">
-        {places.map((place, index) => (
+        {trips.map((trip, index) => (
           <div className="flex shadow-lg gap-4 rounded-xl bg-white p-4" key={index}>
-            <Image src={place.image} alt="" />
+            <Image src={trip.image} alt="" />
             <div className="flex flex-col gap-1 justify-center">
-              <p className="font-semibold text-zinc-600">{place.name}</p>
-              <p className="text-xs ">{place.description}</p>
+              <p className="font-semibold text-zinc-600">{trip.name}</p>
+              <p className="text-xs ">{trip.description}</p>
             </div>
           </div>
         ))}

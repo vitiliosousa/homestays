@@ -43,7 +43,7 @@ export default function AddNewCard() {
                Securely save my information for 1-click checkout
               </label>
               </div>
-              <button className="w-full bg-mint text-black py-3 rounded text-xs font-semibold">Add Card</button>
+              <button className="w-full bg-mint text-black py-3 rounded text-xs font-semibold hover:cursor-pointer hover:ease-in-out hover:bg-mint/80">Add Card</button>
               <p className="text-xs text-center text-gray-500">By confirming your subscription, you allow The Outdoor Inn Crowd Limited to charge your card for this payment and future payments in accordance with their terms. You can always cancel your subscription.</p>
           </div>
         </DialogHeader>

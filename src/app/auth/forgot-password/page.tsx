@@ -21,7 +21,7 @@ export default function ForgotPassword() {
       <form className="flex flex-col gap-4 w-full py-6">
         <FloatingLabelInput label="Email" name="email" type="email" required />
         <button
-          className="bg-mint text-black text-xs font-semibold h-10 px-4 rounded w-full"
+          className="bg-mint text-black text-xs font-semibold h-10 px-4 rounded w-full hover:cursor-pointer hover:bg-mint/80 ease-in-out duration-300"
           onClick={next}
         >
           Submit

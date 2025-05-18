@@ -24,7 +24,7 @@ export default function AvatarDropdown() {
           alt="avatar"
           width={40}
           height={40}
-          className="rounded-full"
+          className="rounded-full hover:cursor-pointer"
         />
       </DropdownMenuTrigger>
       <DropdownMenuContent className="px-5 font-montserrat">

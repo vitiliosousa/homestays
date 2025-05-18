@@ -10,10 +10,10 @@ export default function Header() {
           <p className="font-semibold text-xs">Find Stays</p>
         </div>
         <div className="flex gap-4 items-center text-xs">
-          <div className="flex items-center gap-2">
+          <a className="flex items-center gap-2" href="/flow/favourites">
             <Heart className="w-5 h-5" fill="#000000" />
             <p className="font-semibold">Favourites</p>
-          </div>
+          </a>
           <div className="h-6 w-px bg-black mx-4"/>
           <div className="flex items-center gap-2">
             <AvatarDropdown />

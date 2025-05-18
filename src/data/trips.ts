@@ -9,7 +9,7 @@ import sydney from "@/assets/planYourPerfectTrip/sydney.svg"
 import tokyo from "@/assets/planYourPerfectTrip/tokyo.svg"
 
 
-export const places = [
+export const trips = [
     {
         image:istambul,
         name:"Istambul, Turkey",
