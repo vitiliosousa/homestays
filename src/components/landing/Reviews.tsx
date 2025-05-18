@@ -11,7 +11,7 @@ export default function Reviews() {
           <h1 className="font-semibold text-2xl">Reviews</h1>
           <p className="text-sm">What people says about Golobe facilities</p>
         </div>
-        <button className="border border-mint rounded p-2 font-semibold text-sm hover:bg-mint hover:text-white ease-in-out duration-300">
+        <button className="border border-mint rounded p-2 font-semibold text-sm hover:bg-mint hover:text-white ease-in-out duration-300 hover:cursor-pointer">
           See All
         </button>
       </div>
@@ -22,7 +22,7 @@ export default function Reviews() {
           <p className="text-xs text-zinc-500">
             {review.description}
           </p>
-          <div className="flex">
+          <div className="flex gap-1">
             <Star className="text-[#FFC107]" fill="#FFC107" />
             <Star className="text-[#FFC107]" fill="#FFC107" />
             <Star className="text-[#FFC107]" fill="#FFC107" />

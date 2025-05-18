@@ -20,7 +20,7 @@ export default function FlightsHotels() {
           <p className="text-sm">
             Search flights & places Hire to our most popular destinations
           </p>
-          <button className="text-xs bg-mint text-black flex font-semibold p-3 gap-1 rounded hover:bg-mint/60 ease-in-out duration-300 hover:text-white">
+          <button className="text-xs bg-mint text-black flex font-semibold p-3 gap-1 rounded hover:bg-mint/60 ease-in-out duration-300 hover:text-white hover:cursor-pointer">
             <Send className="size-4" /> Show Flights
           </button>
         </div>
@@ -40,7 +40,7 @@ export default function FlightsHotels() {
           <p className="text-sm">
             Search hotels & places Hire to our most popular destinations
           </p>
-          <button className="text-xs bg-mint text-black flex font-semibold p-3 gap-1 rounded hover:bg-mint/60 ease-in-out duration-300 hover:text-white">
+          <button className="text-xs bg-mint text-black flex font-semibold p-3 gap-1 rounded hover:bg-mint/60 ease-in-out duration-300 hover:text-white hover:cursor-pointer">
             <Send className="size-4" /> Show Hotels
           </button>
         </div>

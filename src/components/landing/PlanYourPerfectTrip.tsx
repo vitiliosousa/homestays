@@ -12,7 +12,7 @@ export default function PlanYourPerfectTrip() {
             Search Flights & Places Hire to our most popular destinations
           </p>
         </div>
-        <button className="border border-mint rounded p-2 font-semibold text-sm hover:bg-mint hover:text-white ease-in-out duration-300">
+        <button className="border border-mint rounded p-2 font-semibold text-sm hover:bg-mint hover:text-white ease-in-out duration-300 hover:cursor-pointer">
           See more places
         </button>
       </div>

@@ -21,8 +21,8 @@ export default function Stays() {
         <FloatingLabelInput label="Passenger-Class" name="passengerClass" type="text"/>
       </div>
       <div className="flex items-center justify-end">
-        <button className="text-xs font-semibold hover:bg-zinc-200 px-4 py-2 rounded ease-in-out duration-300">+ Add Promo Code</button>
-        <button className="bg-mint rounded px-4 py-2 ml-4 text-xs flex gap-1 items-center justify-center font-semibold"><Send className="h-4 w-4"/>Show Flights</button>
+        <button className="text-xs font-semibold hover:bg-zinc-200 px-4 py-2 rounded ease-in-out duration-300 hover:cursor-pointer">+ Add Promo Code</button>
+        <button className="bg-mint rounded px-4 py-2 ml-4 text-xs flex gap-1 items-center justify-center font-semibold hover:cursor-pointer hover:bg-mint/80 ease-in-out duration-300"><Send className="h-4 w-4"/>Show Flights</button>
       </div>
     </div>
   );
