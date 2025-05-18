@@ -14,7 +14,7 @@ export default function Header() {
             <Heart className="w-5 h-5" fill="#000000" />
             <p className="font-semibold">Favourites</p>
           </div>
-          <div className="h-6 w-px bg-black mx-4"></div>
+          <div className="h-6 w-px bg-black mx-4"/>
           <div className="flex items-center gap-2">
             <AvatarDropdown />
             <p className="font-semibold text-xs">John D.</p>
