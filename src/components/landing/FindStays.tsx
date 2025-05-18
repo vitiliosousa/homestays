@@ -12,7 +12,7 @@ export default function FindStays() {
           priority
         />
         <div className="relative z-10 flex flex-col items-center space-y-10 w-full h-full bg-black/60">
-          {/* botoes e titulo */}
+
           <div className="flex justify-between items-center  w-4/5 mt-20">
             <div className="flex w-full items-center gap-2">
               <BedSingle className="size-5" />
@@ -28,7 +28,6 @@ export default function FindStays() {
             </div>
           </div>
 
-          {/* Texto central */}
           <div className="flex flex-col items-center gap-5">
             <h2 className="text-4xl font-semibold">Helping Others</h2>
             <h1 className="text-6xl font-semibold">LIVE & TRAVEL</h1>

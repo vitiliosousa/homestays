@@ -7,7 +7,7 @@ export default function FlowLayout({
   children: React.ReactNode;
 }) {
   return (
-    <div className="flex flex-col h-full w-screen font-montserrat">
+    <div className="flex flex-col h-full w-full font-montserrat">
       <Header />
       <div className="w-full h-full">
         {children}

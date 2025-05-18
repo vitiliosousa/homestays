@@ -41,7 +41,7 @@ export function FloatingLabelSelect({
         onChange={handleChange}
         onFocus={handleFocus}
         onBlur={handleBlur}
-        className={`w-full h-10 border border-black rounded px-2 text-xs pt-2 focus:outline-none focus:ring-1 focus:ring-black appearance-none ${className}`}
+        className={`w-full h-10 border border-black rounded px-2 text-xs pt-2 focus:outline-none focus:ring-1 focus:ring-black appearance-none  ${className}`}
       >
         <option value=""></option>
         {options.map((option) => (
